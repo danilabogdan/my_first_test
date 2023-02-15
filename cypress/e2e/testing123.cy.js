@@ -2,7 +2,7 @@
 
 describe('this test', () => {
   
-  it('tests2', () => {
+  it('test success', () => {
 
     // steps
     cy.visit('https://danilabogdan.tech/')
@@ -10,7 +10,6 @@ describe('this test', () => {
     cy.title().should('eq', 'Dănilă Bogdan - Contact')
 
   })
-
 
 
   it('this test should fail', () => {
