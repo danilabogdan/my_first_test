@@ -1,4 +1,12 @@
+const cypress = require('cypress')
 
 
+describe('What are CSSLocators blud?', () => {
+    it('these are css locators', () => {
 
-describe('')
+        cy.visit('https://danilabogdan.tech/')
+
+        cy.get('.form-control').type('')
+        
+    });
+});
